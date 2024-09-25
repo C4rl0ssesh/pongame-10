@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<title>formulario</title>
+</head>
+<body background="img/formulario.jpg">
+
+<header>    
+    <h1>Formulario<br>
+    Restaurante - Oscar Duarte -- Aragon Lopez </h1>
+</header>    
+       
+    
+
+<nav>
+      <a href="inicio.html">INICIO</a><br>
+      <a href="formulario.html">FORMULARIO</a><br>
+      <a href="recetas.html">RECETAS</a><br>
+      <a href="desa.html">DESARROLLADORES</a>
+    </nav>
+
+    <p align="left">Escribe lo que deseas pedir</p>
+    <div class="cuerpo" align="left">
+    	<form action="od83680@gmail.com" method="POST">
+    		<table>
+    		<td>
+    		<p>
+    			<label for="nombrec">Nombre Completo:</label>
+    			<input type="text" name="nombrec" maxlength="128" placeholder="teclea tu nombre completo">
+    		</p>
+    		<p>
+    			<label for="comidas">Eligue tu comida:</label>
+    			<select name="comidas" size="1">
+    				<option value="barb">Barbacoa</option>
+    				<option value="carn">Carne Asada</option>
+    				<option value="menudo">Menudo</option>
+    				<option value="mole">Mole</option>
+    				<option value="poz">Pozole</option>
+    				<option value="chila">chilaquiles</option>
+    				<option value="sop">Sopes</option>
+    				<option value="enchi">enchiladas</option>
+
+    			</select>
+    		</p>
+    		<p>
+    			<label for="tipo">Tipo de cliente:</label><br>
+    			<input type="radio" name="tipo" value="cliente"/>Cliente<br> 
+    			<input type="radio" name="tipo" value="clientev"/>Cliente Vip<br> 
+    		</p>
+    		<p>
+    			<label for="metodo">Metodo de pago:</label><br>
+    			<input type="radio" name="metodo" value="efectivo"/>Efectivo<br> 
+    			<input type="radio" name="metodo" value="tarjeta"/>Tarjeta<br> 
+    		</p>
+    		<p>
+    			<label for="reseña">Reseña:</label><br>
+    			<textarea name="reseña" rows="4" cols="40" placeholder="teclea tu comentario"></textarea>
+    		</p>
+    		<p>
+    			<input type="checkbox" name="terminos" value="terminos"/>
+    			<label for="terminos">Acepto los terminos y condiciones de uso de Oscar y Carlos</label>
+    		</p>
+    		<p>
+    			<input type="submit" name="enviar" value="Enviar"/>
+    			<input type="reset" name=" limpiarform" value="Borrar Datos de Formulario"/>
+    		</p>
+    	</form>
+    	</td>
+    </div>
+</table>
+
+<a href="Menu.html">
+<p>Regresa al menu</p>
+</a>
+
+</body>
+</html>
